@@ -8,7 +8,6 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Debug.Log("Hello Unity");
 
-
         //1.변수
         int level = 5;
         float strength = 15.5f;
@@ -21,10 +20,9 @@ public class NewBehaviourScript : MonoBehaviour
         Debug.Log(level);
         Debug.Log("용사의 힘은?");
         Debug.Log(strength);
-        Debug.Log("용사는 만렙인가? 마지");
+        Debug.Log("용사는 만렙인가?");
         Debug.Log(isFullLevel);
-
-
-        
     }
+
+   
 }
